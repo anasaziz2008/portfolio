@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,133 +9,291 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-         
-<!-- new comment h-->
+
+        <!-- new comment h-->
         <div class="navbar">
 
-            
-           <nav>
-           <a class="head">START BOOTSTRAP</a>
-            <label><a href="#portfolio" id="a">PORTFOLIO</a></label>
-            <label><a href="#about" id="a">ABOUT</a></label>
-            <label><a href="#contact" id="a">CONTACTS</a></label>
-           </nav>
+
+            <nav>
+                <a class="head">START BOOTSTRAP</a>
+                <label><a href="#portfolio" id="a">PORTFOLIO</a></label>
+                <label><a href="#about" id="a">ABOUT</a></label>
+                <label><a href="#contact" id="a">CONTACTS</a></label>
+            </nav>
         </div>
 
 
-         <div class="avatar">
-          <img src="https://adaptabiz.com/wp-content/uploads/2022/01/img_avatar.png" 
-          alt="Avatar" id="avatar">
-          <h1>START BOOTSTRAP</h1>
-          <p>front end develepor</p>
+        <div class="avatar">
+            <img src="https://adaptabiz.com/wp-content/uploads/2022/01/img_avatar.png" alt="Avatar" id="avatar">
+            <h1>START BOOTSTRAP</h1>
+            <p>front end develepor</p>
         </div>
-    
+
 
 
         <div class="portfolio" id="portfolio">
-         <h1>PORTFOLIO</h1>   
-         <div style="display:flex; justify-content:space-between;">
-         <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/cabin.png"  alt="Avatar" class="image">
-            <div class="middle">
-              <div class="text">&plus;</div>
-            </div>
-          </div>
-
-          <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/cake.png"  alt="Avatar" class="image" >
-            <div class="middle">
-              <div class="text">&plus;</div>
-            </div>
-          </div>
-
-          <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/circus.png"  alt="Avatar" class="image" >
-            <div class="middle">
-              <div class="text">&plus;</div>
-            </div>
-          </div>
-         </div>
+            <h1>PORTFOLIO</h1>
             <div style="display:flex; justify-content:space-between;">
-          
-          <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/game.png"  alt="Avatar" class="image" >
-            <div class="middle">
-              <div class="text">&plus;</div>
+                <div class="container">
+                    <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/cabin.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/cake.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/circus.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                </div>
             </div>
-       </div>
+            <div style="display:flex; justify-content:space-between;">
+
+                <div class="container">
+                    <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/game.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                </div>
 
 
-          <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/safe.png"  alt="Avatar" class="image" >
-            <div class="middle">
-              <div class="text">&plus;</div>
-            </div>
-      </div>
+                <div class="container">
+                    <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/safe.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                </div>
 
-          <div class="container">
-            <img src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/submarine.png"  alt="Avatar" class="image">
-            <div class="middle">
-              <div class="text">&plus;</div>
+                <div class="container">
+                    <img id="img-6"
+                        src="file:///C:/Users/user/Desktop/test-template/dist/assets/img/portfolio/submarine.png"
+                        alt="Avatar" class="image">
+                    <div class="middle">
+                        <div class="text">&plus;</div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        
-         </div>
-        </div>
-      
+
 
         <div class="about" id="about">
-         <h1>ABOUT</h1>
-         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS,
-             and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-         <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the 
+            <h1>ABOUT</h1>
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
+                source files including HTML, CSS,
+                and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your
+                email address to the
                 contact form to make it fully functional! </p>
-                <button id="button"><a href="https://startbootstrap.com/theme/freelancer">Free Download</a></button>
+            <button id="button"><a href="https://startbootstrap.com/theme/freelancer">Free Download</a></button>
         </div>
 
 
 
         <div class="contact" id="contact">
-               <h1>CONTACT ME</h1>
-               <input type="text" placeholder="Full Name"><br><br>
+            <h1>CONTACT ME</h1>
+            <input type="text" placeholder="Full Name"><br><br>
 
-               <input type="text" placeholder="Email Address"><br><br>
+            <input type="text" placeholder="Email Address"><br><br>
 
-               <input type="text" placeholder="Phone Number"><br><br>
+            <input type="text" placeholder="Phone Number"><br><br>
 
-               <input type="text" placeholder="Message"><br><br>
-                     
-               <button><a href="https://startbootstrap.com/solution/contact-forms">Send</a></button> 
+            <input type="text" placeholder="Message"><br><br>
+
+            <button><a href="https://startbootstrap.com/solution/contact-forms">Send</a></button>
         </div>
 
-        <div class="footer" >
+        <div class="footer">
             <div>
                 <h3>Location</h3>
                 <p>2215 John Daniel Drive<br>
                     Clark, MO 65243</p>
-            </div> 
+            </div>
 
-            <div><h3>AROUND THE WEB</h3>
+            <div>
+                <h3>AROUND THE WEB</h3>
                 <a href="https://github.com/anasaziz2008" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  id="profile-link" alt="github">
-                  </a>
-              
-            </div> 
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" id="profile-link" alt="github">
+                </a>
 
-            <div><h3>ABOUT FREELANCER</h3> 
-            <p>Freelance is a free to use, MIT licensed<br> Bootstrap theme created by Start <br>Bootstrap .</p>
-            </div>       
+            </div>
+
+            <div>
+                <h3>ABOUT FREELANCER</h3>
+                <p>Freelance is a free to use, MIT licensed<br> Bootstrap theme created by Start <br>Bootstrap .</p>
+            </div>s
 
         </div>
-    
 
 
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-   
     </main>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #myImg:hover {
+            opacity: 0.7;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("img-6");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
 </body>
+
 </html>
