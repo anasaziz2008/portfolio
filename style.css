@@ -7,8 +7,9 @@ img#avatar{
     margin-top: 150px;
     }
 .avatar{
+    height: 615px;
     background-color: aqua;
-    width: 100%;
+    width: 100.5%;
 }
 
 nav{
@@ -27,8 +28,8 @@ nav{
 
 
 #a{
- 
-      float: right;
+     margin-bottom: 20px;  
+      
 }
 
 .about{
@@ -43,6 +44,9 @@ nav{
     width: 100px;
 }
 
+#heading{
+    text-align: center;
+}
 
 
 
