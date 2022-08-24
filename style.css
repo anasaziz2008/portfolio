@@ -37,6 +37,8 @@ nav{
 
 .about{
     background-color: aqua;
+    height: 400px;
+
 }
 .footer{
     display: flex;
@@ -52,7 +54,11 @@ nav{
     text-align: center;
 }
 
+#free{
+    text-align: justify;
+    margin-left: 350px;
 
+}
 
 
 .container {
@@ -103,8 +109,13 @@ nav{
     font-size: 100px;
     padding: 16px 32px;
   }
-
-
+.head{
+    font-size: 30px;
+}
+#button{
+   margin-left: 630px;
+   margin-bottom: 50px;
+}
   
   body {
       font-family: Arial, Helvetica, sans-serif;
