@@ -27,10 +27,7 @@ nav{
     text-align: center;
     font-size: 20px;
 }
-.fas fa-star{
-    height: 100px;
-    width: 100px;
-}
+
 
 
 #a{
@@ -63,10 +60,14 @@ nav{
     width: 50%;
   }
 
-
+.portfolio{
+    height: 650px;
+}
 
   
   .image {
+    border-radius: 15px;
+    overflow: hidden;
     opacity: 1;
     display: flex;
     justify-content: space-between;
@@ -74,6 +75,8 @@ nav{
     backface-visibility: hidden;
     height: 214px;
     width: 296px;  
+    overflow: hidden;
+    z-index: 1;
 }
   
   .middle {
@@ -109,10 +112,19 @@ nav{
       font-family: Arial, Helvetica, sans-serif;
   }
 
+  #text{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+
   #myImg {
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
+      
   }
 
   #myImg:hover {
