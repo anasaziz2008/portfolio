@@ -43,6 +43,7 @@ nav{
 .footer{
     display: flex;
     justify-content: space-between;
+    text-align: center;
     background-color: aqua;
     height: 200px;
 
@@ -62,6 +63,15 @@ nav{
     margin-left: 350px;
 
 }
+
+.last{
+    font-size: 13px;
+    margin-top: -16px;
+    background-color: dimgray;
+    height: 50px;
+    text-align: center;
+}
+
 
 
 .container {
@@ -126,7 +136,8 @@ nav{
     border-left: none;
     border-top: none;
     width: 650px;
-    height: 70px;
+    height: 60px;
+    padding: 20px;
 } 
 
 
@@ -156,6 +167,7 @@ nav{
 
   /* The Modal (background) */
   .modal {
+    
       display: none;
       /* Hidden by default */
       position: fixed;
@@ -183,7 +195,8 @@ nav{
       margin: auto;
       display: block;
       width: 80%;
-      max-width: 700px;
+      max-width: 500px;
+      height: 400px;
   }
 
   /* Caption of Modal Image */
